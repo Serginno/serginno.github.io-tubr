@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 30px 0;
+}
+img {
+  margin: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5px;
+  left: 12.5%;
+}
+
+h1.t {
+  color: #0057e7;
+}
+
+h1.u {
+  color: #db3236;
+}
+
+h1.b {
+  color: #f4c20d;
+}
+
+h1.r {
+  color: #3cba54;
+}
+
+h1.t, h1.u, h1.b, h1.r {
+  font-family: Product Sans;
+  display: inline;
+  font-size: 100px;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.search-button {
+  position: absolute;
+  bottom: 4%;
+  right: 2%;
+  width: 25%;
+}
+
+button {
+  width: 10%;
+  height: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  border-left: none;
+  cursor: pointer;
+}
+
+.row1 {
+  position: absolute;
+  bottom: 10%;
+  right: 16%;
+  width: 25%;
+}
+
+.row2 {
+  position: absolute;
+  bottom: 4%;
+  right: 16%;
+  width: 25%;
+}
